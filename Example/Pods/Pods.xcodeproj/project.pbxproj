@@ -15,10 +15,11 @@
 		ADFE99A47932BAD8EAEAA7A58EA626AD /* Pods-BubbleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6ACD4FD9C1772E15E011509D3AACF8A /* Pods-BubbleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4AE3A879230518F336E37875049F4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D2F790609F026A776CE6883A6F6A03AD /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9F142F8E9DEB953829B60458740BB /* BubbleView.swift */; };
-		DA43CDBD29CB5DB50060CFF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888F82604C8AA67C919BB2208B78B17 /* Images.xcassets */; };
+		DA43CDC129CB5F8C0060CFF0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43CDC029CB5F8C0060CFF0 /* Extension.swift */; };
 		DFB78C6D7685BE5C13A08E2A871262AD /* Pods-BubbleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF77678EA1F1BF55F008D5C050A57409 /* Pods-BubbleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E216B8E964087C545357125C184270B1 /* BubbleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1503C601C195E7435FAAA72CCE78E0 /* BubbleView-dummy.m */; };
 		E31166C5E881AD9B5167B2BF4D5617DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA2918E54B9D427D6522F639F8FB045D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888F82604C8AA67C919BB2208B78B17 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,7 @@
 		8410F3839CDE3F655F55FD9EEF93AF7C /* Pods-BubbleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleView_Tests-Info.plist"; sourceTree = "<group>"; };
 		8AF4278A08E0E47998722260F5B6BADC /* Pods-BubbleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8FF57CCA853D959F980D4AE2C3016616 /* Pods-BubbleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleView_Example-dummy.m"; sourceTree = "<group>"; };
-		9094037CDB43462314E4CF45E54CE9EE /* BubbleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9094037CDB43462314E4CF45E54CE9EE /* BubbleView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BubbleView; path = BubbleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D42919B66CA14D58B6DD29B4F4A0FD /* BubbleView-BubbleView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BubbleView-BubbleView"; path = BubbleView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3170B5C4C04B0B341AE6110AFDD2537 /* BubbleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleView-prefix.pch"; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		BF1503C601C195E7435FAAA72CCE78E0 /* BubbleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleView-dummy.m"; sourceTree = "<group>"; };
 		C888F82604C8AA67C919BB2208B78B17 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BubbleView/Assets/Images.xcassets; sourceTree = "<group>"; };
 		CD138D9CC73839F68F2F2A9384069E81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA43CDC029CB5F8C0060CFF0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DEC77F384980AF23E9317A9B65A6EE72 /* Pods-BubbleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BubbleView_Tests.modulemap"; sourceTree = "<group>"; };
 		E4AD41C7B96ED6DCDD7C191F1F34CD15 /* ResourceBundle-BubbleView-BubbleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BubbleView-BubbleView-Info.plist"; sourceTree = "<group>"; };
 		ECA3AE268F10F1D5D739C058D7C45560 /* Pods-BubbleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		678EE8BDA9BCAC2E6007B01E9ADFF93E /* BubbleView */ = {
 			isa = PBXGroup;
 			children = (
+				DA43CDC029CB5F8C0060CFF0 /* Extension.swift */,
 				06B9F142F8E9DEB953829B60458740BB /* BubbleView.swift */,
 				C888F82604C8AA67C919BB2208B78B17 /* Images.xcassets */,
 				DD04CEB27E8C3FD6556C627836FE5338 /* Pod */,
@@ -237,7 +240,7 @@
 		DF38D36E530FD9D46012FC8310B57FD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9094037CDB43462314E4CF45E54CE9EE /* BubbleView.framework */,
+				9094037CDB43462314E4CF45E54CE9EE /* BubbleView */,
 				92D42919B66CA14D58B6DD29B4F4A0FD /* BubbleView-BubbleView */,
 				6A0AB5F43888FC3291AA90BC7836EB5A /* Pods-BubbleView_Example */,
 				628E509280613CEA00F29EB5C4FAC25B /* Pods-BubbleView_Tests */,
@@ -291,7 +294,7 @@
 			);
 			name = BubbleView;
 			productName = BubbleView;
-			productReference = 9094037CDB43462314E4CF45E54CE9EE /* BubbleView.framework */;
+			productReference = 9094037CDB43462314E4CF45E54CE9EE /* BubbleView */;
 			productType = "com.apple.product-type.framework";
 		};
 		210A82519FAF676B80F71945C15DF579 /* Pods-BubbleView_Tests */ = {
@@ -385,7 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35ABCE1BD895207377DE775CDF316A90 /* BubbleView-BubbleView in Resources */,
-				DA43CDBD29CB5DB50060CFF0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2918E54B9D427D6522F639F8FB045D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA43CDC129CB5F8C0060CFF0 /* Extension.swift in Sources */,
 				D2F790609F026A776CE6883A6F6A03AD /* BubbleView.swift in Sources */,
 				E216B8E964087C545357125C184270B1 /* BubbleView-dummy.m in Sources */,
 			);
@@ -503,19 +507,35 @@
 			};
 			name = Debug;
 		};
-		36CD7B3CDE891B6CA3F3B4BD5723FCFA /* Debug */ = {
+		2FAE463CB590EB837A4765C1385ED77A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F75D6EE8DB98DF95D5314CFBBC1B2D03 /* BubbleView.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleView";
-				IBSC_MODULE = BubbleView;
-				INFOPLIST_FILE = "Target Support Files/BubbleView/ResourceBundle-BubbleView-BubbleView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleView/BubbleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleView/BubbleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleView/BubbleView.modulemap";
+				PRODUCT_MODULE_NAME = BubbleView;
 				PRODUCT_NAME = BubbleView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -552,22 +572,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		79618859E182C72BDB320575D7A033C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E8D93674B6CB7D4C472D0147B3C755 /* BubbleView.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleView";
-				IBSC_MODULE = BubbleView;
-				INFOPLIST_FILE = "Target Support Files/BubbleView/ResourceBundle-BubbleView-BubbleView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = BubbleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -670,38 +674,6 @@
 			};
 			name = Release;
 		};
-		9801C87CEC366468C888B6D7BEE0681E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F75D6EE8DB98DF95D5314CFBBC1B2D03 /* BubbleView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleView/BubbleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleView/BubbleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleView/BubbleView.modulemap";
-				PRODUCT_MODULE_NAME = BubbleView;
-				PRODUCT_NAME = BubbleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -763,36 +735,19 @@
 			};
 			name = Release;
 		};
-		A78540C882318B9DAD5F7F14AA9A6874 /* Release */ = {
+		AB7EB9F285E03AC3BADD8DB201C441AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3E8D93674B6CB7D4C472D0147B3C755 /* BubbleView.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleView/BubbleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleView/BubbleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleView";
+				IBSC_MODULE = BubbleView;
+				INFOPLIST_FILE = "Target Support Files/BubbleView/ResourceBundle-BubbleView-BubbleView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleView/BubbleView.modulemap";
-				PRODUCT_MODULE_NAME = BubbleView;
 				PRODUCT_NAME = BubbleView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -831,6 +786,55 @@
 			};
 			name = Release;
 		};
+		B8BC58AB9DDA72A889BBEB87C5005611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75D6EE8DB98DF95D5314CFBBC1B2D03 /* BubbleView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleView";
+				IBSC_MODULE = BubbleView;
+				INFOPLIST_FILE = "Target Support Files/BubbleView/ResourceBundle-BubbleView-BubbleView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = BubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EB977CD40FA9A987B430A9FC2FB1BC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8D93674B6CB7D4C472D0147B3C755 /* BubbleView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleView/BubbleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleView/BubbleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleView/BubbleView.modulemap";
+				PRODUCT_MODULE_NAME = BubbleView;
+				PRODUCT_NAME = BubbleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -846,8 +850,8 @@
 		703DD3E3F085B3C33379B8EA65B29362 /* Build configuration list for PBXNativeTarget "BubbleView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9801C87CEC366468C888B6D7BEE0681E /* Debug */,
-				A78540C882318B9DAD5F7F14AA9A6874 /* Release */,
+				2FAE463CB590EB837A4765C1385ED77A /* Debug */,
+				EB977CD40FA9A987B430A9FC2FB1BC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -864,8 +868,8 @@
 		A28FEC91E8B46353A339F4EA0A968E02 /* Build configuration list for PBXNativeTarget "BubbleView-BubbleView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36CD7B3CDE891B6CA3F3B4BD5723FCFA /* Debug */,
-				79618859E182C72BDB320575D7A033C1 /* Release */,
+				B8BC58AB9DDA72A889BBEB87C5005611 /* Debug */,
+				AB7EB9F285E03AC3BADD8DB201C441AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

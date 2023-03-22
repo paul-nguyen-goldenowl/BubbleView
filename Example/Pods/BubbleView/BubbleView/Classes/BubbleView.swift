@@ -27,7 +27,7 @@ public class BubbleView: UIView {
 //        let image = UIImageView(image: UIImage(named: "bubble"))
         let image = UIImageView(image: UIImage(
             named: "bubble",
-            in: getResourceBundle(),
+            in: Bundle(for: BubbleView.self),
             compatibleWith: nil)
         )
         image.contentMode = .scaleAspectFill

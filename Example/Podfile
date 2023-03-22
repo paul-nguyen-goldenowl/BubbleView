@@ -4,6 +4,7 @@ platform :ios, '13.0'
 
 target 'BubbleView_Example' do
   pod 'BubbleView', :path => '../'
+#  pod 'BubbleView', :git => 'https://github.com/paul-nguyen-goldenowl/BubbleView'
 
   target 'BubbleView_Tests' do
     inherit! :search_paths
