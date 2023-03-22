@@ -1,0 +1,27 @@
+{
+  "name": "BubbleView",
+  "version": "0.1.0",
+  "summary": "A short description of BubbleView.",
+  "description": "Bubbleview for showing chat",
+  "homepage": "https://github.com/paul-nguyen-godlenowl/BubbleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "paul-nguyen-godlenowl": "104960766+paul-nguyen-goldenowl@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/paul-nguyen-godlenowl/BubbleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BubbleView/Classes/**/*",
+  "resource_bundles": {
+    "BubbleView": [
+      "BubbleView/Assets/**"
+    ]
+  }
+}

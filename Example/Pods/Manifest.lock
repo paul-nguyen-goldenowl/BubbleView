@@ -1,0 +1,16 @@
+PODS:
+  - BubbleView (0.1.0)
+
+DEPENDENCIES:
+  - BubbleView (from `../`)
+
+EXTERNAL SOURCES:
+  BubbleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BubbleView: c1f5e355619bcc970efa7626b2af34e381fdf15f
+
+PODFILE CHECKSUM: 07e81e982ce8ef402c0d6fd6873152a3e9175a36
+
+COCOAPODS: 1.11.3
